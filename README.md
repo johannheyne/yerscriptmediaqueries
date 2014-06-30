@@ -1,7 +1,7 @@
 YerScriptMediaQueries
 =====================
 
-MediaQueries for Javavascript.
+Mediaqueries for javascript.
 
 ```javascript
 var mediaqueries = new YerScriptMediaQueries();
