@@ -12,22 +12,22 @@ mediaqueries.init({
             breakpoint: 768,
             before: function(){
 
-                console.log( 'before 768' );
+                // console.log( 'fired before 768' );
             },
             after: function(){
 
-                console.log( 'after 768' );
+                // console.log( 'fired after 768' );
             }
         },
         {
             breakpoint: 1024,
             before: function(){
 
-                console.log( 'before 1024' );
+                // console.log( 'fired before 1024' );
             },
             after: function(){
 
-                console.log( 'after 1024' );
+                // console.log( 'fired after 1024' );
             }
         }
     ],
