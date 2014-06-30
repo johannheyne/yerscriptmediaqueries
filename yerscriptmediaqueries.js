@@ -13,13 +13,13 @@ function YerScriptMediaQueries() {
 	
 	t.init =  function( p ) {
 		
-		t.set = $.extend( true, t.defaults, p );
+		t.set = jQuery.extend( true, t.defaults, p );
 		
 		if ( typeof t.set.mediaqueries === 'object' ) {
 
 			t.loop_breakpoints();
 
-			$(window).resize( function() {
+			jQuery(window).resize( function() {
 
 				if ( this.resize_timeout ) {
 
@@ -39,7 +39,7 @@ function YerScriptMediaQueries() {
 	
 	t.loop_breakpoints =  function() {
 		
-		var window_width = $( window ).width();
+		var window_width = jQuery( window ).width();
 
 		for ( var i in t.set.mediaqueries ) {
 			
