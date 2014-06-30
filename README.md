@@ -1,4 +1,4 @@
-YerScriptMediaqQueries
+YerScriptMediaQueries
 =====================
 
 MediaQueries for Javavascript.
