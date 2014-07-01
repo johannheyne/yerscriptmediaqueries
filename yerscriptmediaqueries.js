@@ -45,7 +45,7 @@ function YerScriptMediaQueries() {
 			
 			if ( typeof t.set.mediaqueries[ i ].breakpoint === 'number') {
 			    
-				if ( t.set.mediaqueries[ i ].breakpoint < window_width ) {
+				if ( t.set.mediaqueries[ i ].breakpoint > window_width ) {
 
 					if ( typeof t.set.mediaqueries[ i ].before === 'function' ) {
 
